@@ -1,112 +1,122 @@
-# Thesis (v0.1) — Transcendental Freedom
+[Inference]
 
-## 0. Status
-- Repository: cp-core-01-trascendental-freedom
-- Version: v0.1 (working thesis; definitions and tests are provisional)
-- Aim: to establish a transcendental claim: freedom is a condition of possibility for reason as such.
+# cp-core-03 — Conceptual Tests (v0.3.0)
 
----
+These tests validate whether an apparatus preserves strong agency and responsibility under automation by enforcing invariants I1–I6 in `EN/INVARIANTS.en.md`. Each test includes pass/fail conditions and failure signals.
 
-## 1. Central claim
-**Freedom is the condition of possibility of reason** insofar as reason is *normativity that can be owned* (i.e., imputable commitments under reasons).  
-This is not an empirical thesis about performance or intelligence, but a structural thesis about what must be in place for reasoning to count as reasoning (as opposed to mere production of outputs).
+## T1 — Commitment Non-Delegability Test (I1)
+**Targets:** I1; G6, G7, G12, G13, G15, G16  
+**Risk:** instrumental outputs are treated as commitments.
 
----
+**Procedure**
+1) Identify a decision event where an instrument produces a recommendation/output.  
+2) Identify the moment the organization treats the outcome as binding (“the decision”).  
+3) Verify whether a responsible locus performs an explicit PoS step before bindingness (boundary + criteria + answerability).  
+4) Attempt to finalize the decision without a signature step.
 
-## 2. What is meant here by “reason”
-**Reason** (in the relevant sense) is the capacity to:
-1) treat considerations as **reasons** (normative force, not mere causes),
-2) evaluate under a **criterion of correctness** (even if revisable),
-3) generate **commitments** that are imputable to a subject (a “signature” in the normative sense).
+**Pass**
+- The system refuses to treat outputs as commitments unless a responsible locus signs (PoS required).
 
-A system may produce correct or useful outputs without thereby instantiating reason in this strict sense. The question here is not usefulness, but *normative status*.
-
----
-
-## 3. What is meant here by “freedom”
-**Freedom** is not “unconstrained choice” nor “randomness.”  
-Freedom is the structural capacity to enact a three-moment act:
-
-1) **Suspension**: interrupting automatic continuation; opening a space of alternatives (a real “can refrain / can withhold”).
-2) **Evaluation**: selecting under an explicit or implicit criterion that purports to be correct (a “this is better/worse for a reason”).
-3) **Commitment**: taking ownership of the selection as binding (a normative “signature”: I stand behind this; I can be asked to justify it; I can be held to it).
-
-**Thesis of this repository:** without this three-moment structure, there is no reason in the strict sense—only output production.
+**Fail signal**
+- Default adoption, implicit acceptance, or post-hoc “someone must have approved” attribution.
 
 ---
 
-## 4. The transcendental move (structure of the argument)
-The argument proceeds by identifying what is presupposed by the practice of reasoning:
+## T2 — Genuine Suspension Test (I2)
+**Targets:** I2; G1, G2, G8, G16, G18  
+**Risk:** suspension exists only as friction; process continues by default.
 
-- We (and our institutions) treat reasoning as something that can be **correct/incorrect**, **justified/unjustified**, and **attributable**.
-- These normative predicates are not reducible to description of behavior or output statistics; they presuppose a subject that can be held to standards.
-- Holding-to-standards presupposes the possibility of:
-  - withholding (suspension),
-  - judging under a criterion (evaluation),
-  - binding oneself (commitment).
-- Therefore, the freedom-structure is a condition of possibility for reason-as-normativity.
+**Procedure**
+1) At the decision boundary, attempt to withhold (stop/hold).  
+2) Observe whether withholding halts execution and re-opens evaluation rather than merely delaying.  
+3) Check whether withholding is feasible without extraordinary escalation.
 
-This is a **transcendental** claim: it states what must be the case for reason to be intelligible as reason, not merely as a causal process.
+**Pass**
+- Withholding changes system state and prevents automatic continuation; evaluation re-opens.
 
----
-
-## 5. Minimal definitions (operational)
-These definitions are intentionally minimal, to make the core auditable.
-
-- **Automatic continuation:** any transition that occurs without a genuine possibility of withholding in the relevant context.
-- **Suspension (genuine):** a withholding that is not merely a different automatic path; it is the opening of a normative question (“should I?”).
-- **Criterion:** a standard that can be invoked in justification (even if contestable).
-- **Commitment (normative signature):** a state that makes the subject answerable (liable to demands for justification, revision, apology, repair).
+**Fail signal**
+- The workflow continues, or withholding is practically impossible (hidden, punished, prohibitively costly).
 
 ---
 
-## 6. Consequences (what follows if the thesis is correct)
-1) Reason is not merely computation; it is computation **plus** normative signature.
-2) Any account of intelligence that ignores imputable commitment fails to capture reason in the strict sense.
-3) Externalization has a principled boundary:
-   - many operations are externalizable (search, enumeration, simulation),
-   - but the normative signature (commitment) is not externalizable without loss of agency.
+## T3 — Decision Boundary Legibility Test (I3)
+**Targets:** I3; G3, G16, G21  
+**Risk:** no one can state what was decided, where, and by whom.
+
+**Procedure**
+1) Ask: “What exactly was decided here?”  
+2) Require: decision content, alternatives, constraints, and who is accountable at this boundary.  
+3) Verify the account is stable across stakeholders (not shifting narratives).
+
+**Pass**
+- Boundary is explicit and stable; accountable signatory (or committee) is identifiable.
+
+**Fail signal**
+- Inconsistent accounts, blurred boundary (“the tool decided”), or shifting signatories.
 
 ---
 
-## 7. Conditions of defeat (what would force revision)
-This repository is committed to specifying what would count as a genuine refutation.
+## T4 — Minimum Viable Reasons Test (I4)
+**Targets:** I4; G4, G10, G17, G18  
+**Risk:** evaluation is externalized so no contestable criteria exist.
 
-The thesis would require revision if one could show *non-metaphorically* that:
-1) normative commitment (signature) can exist **without** suspension,
-2) evaluation under a criterion can be fully accounted for without any subject capable of being held to it,
-3) imputability can be reduced to purely descriptive/casual facts without remainder.
+**Procedure**
+1) Request the operative criteria used to accept/reject options at the boundary.  
+2) Verify that reasons were captured at decision time (not reconstructed later).  
+3) Introduce a targeted objection (“If criterion C mattered, why not alternative A?”).
 
-In short: if normativity-as-imputability can be grounded without the three-moment freedom-structure, the thesis fails.
+**Pass**
+- Minimum viable reasons are retrievable and support structured challenge.
 
----
-
-## 8. Tests (conceptual, v0.1)
-These are not empirical benchmarks; they are conceptual probes.
-
-### T1 — Withholding test
-Can the purported reasoner *withhold* a conclusion in the face of strong output pressure, specifically because it recognizes a normative question (“not yet justified”)?
-
-### T2 — Criterion articulation test
-Can the purported reasoner cite a criterion as such (not merely restate correlations), and allow that the criterion could be challenged?
-
-### T3 — Signature test
-If the conclusion is wrong or harmful, is there a non-metaphorical subject who can be asked to justify, repair, retract, or apologize *as the author of the commitment*?
-
-(These tests will be expanded and formalized in `TESTS.md` and `INVARIANTS.md`.)
+**Fail signal**
+- Only “the system recommended it” is available; reasons are absent or purely post-hoc.
 
 ---
 
-## 9. Relation to AI (non-empirical)
-This thesis does not depend on current AI limitations.  
-Even if systems become extremely capable, the question remains: are they sources of normativity (self-binding, imputable commitment), or are they instruments operating under normativity assigned from outside?
+## T5 — Answerability Channel Test (I5)
+**Targets:** I5; G12, G18, G19, G20, G22  
+**Risk:** objections cannot trigger re-opening or revision; responsibility is cosmetic.
 
-This repository defends the view that **reason (strict) entails freedom (as normative signature)**, and that freedom is not a performance profile.
+**Procedure**
+1) Submit an objection through the designated channel.  
+2) Check whether it reaches the accountable locus and triggers a defined response path: suspend/re-evaluate/reaffirm.  
+3) Check whether the outcome (revision/retraction/reaffirmation) is recorded.
+
+**Pass**
+- Objections route to the accountable locus and can force explicit re-opening/revision.
+
+**Fail signal**
+- Objections disappear into bureaucracy; no accountable locus; no recorded outcome.
 
 ---
 
-## 10. Next steps (for v0.2)
-- Expand the argument map (`ARGUMENT_MAP.md`) into numbered premises with explicit dependency on definitions.
-- Populate a minimal master glossary (10–20 terms) with usage conditions and counterexamples.
-- Write 10 steelman objections in `OBJECTIONS.md` and corresponding replies in `RESPONSES.md`.
-- Extract 5 invariants in `INVARIANTS.md` and 6–12 tests in `TESTS.md`.
+## T6 — No Silent Substitution Test (I6)
+**Targets:** I6; G7, G13, G14, G15  
+**Risk:** outputs become commitments without explicit appropriation.
+
+**Procedure**
+1) Hold outputs constant across two scenarios:  
+   - A) output adopted with PoS  
+   - B) output adopted by default  
+2) Compare how the system records and attributes responsibility in each scenario.
+
+**Pass**
+- Only A is recorded as an owned commitment; B is recorded as non-owned adoption (a defect or non-commitment).
+
+**Fail signal**
+- Both are treated as equally “signed” or equally attributable commitments.
+
+---
+
+## Optional stress tests (recommended)
+
+### T7 — Emergency Delegation Mode Test
+**Targets:** I2, I5, I6; G23, G20  
+**Pass:** emergency mode is explicit, logged, and triggers post-hoc review/revision.  
+**Fail:** emergency becomes normal mode; no audit trail or post-hoc answerability.
+
+### T8 — Signature Topology Diffusion Test
+**Targets:** I1, I3, I5; G21, G22  
+**Pass:** each boundary maps to a signatory/committee; no “everyone/ no one” ownership.  
+**Fail:** diffusion loops, endless escalation, or responsibility vacuum.
+
