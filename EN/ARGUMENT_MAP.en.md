@@ -1,25 +1,29 @@
-# ARGUMENT_MAP.en.md
+# cp-core-03 — Argument Map (v0.3.0)
 
-# cp-core-03 — Argument Map (v0.1.0)
+## Main conclusion (C)
+**C:** A socio-technical system preserves strong agency and responsibility under automation only if it implements an apparatus that enforces invariants I1–I6 by preventing Second-Cause substitution through decision-boundary legibility, PoS, criteria traceability, contestability, and a defined signature topology. (G1–G4, G6–G15, G18–G20)
 
-## Glossary links
-Key terms referenced: [G1–G12] in `GLOSSARY.en.md`.
-
-## Main claim (C)
-**C:** A socio-technical system preserves strong agency only if it implements an apparatus that enforces non-delegability of commitment, genuine suspension, decision-boundary legibility, criteria traceability, and an answerability channel. (I1–I6)
-
-## Premises
-**P1.** Strong agency requires an interruptible sequence: Suspension → Evaluation → Commitment (S→E→K). (G1, G2, G3)  
-**P2.** Instrumental systems (Second Causes) can generate outputs but cannot bear normative responsibility. (G6, G7)  
-**P3.** Without explicit constraints, automation tends to (a) compress Suspension, (b) externalize Evaluation, and (c) simulate Commitment by default adoption. (G1, G8, G9)  
-**P4.** If Suspension is compressed, the subject’s stance becomes automatic continuation rather than a controlled withholding. (G1, G8)  
-**P5.** If Commitment is simulated by default adoption, responsibility attribution becomes ambiguous or displaced. (G3, G4, G7)  
-**P6.** A decision can be responsibly owned only if the subject can appropriate it through Proof of Signature (PoS): boundary + criteria + consequences. (G4, G5, G10)  
-**P7.** Appropriation requires minimally legible boundaries and traceable criteria; otherwise structured challenge is impossible. (G10, G11)  
-**P8.** A system that enables structured challenge must include an answerability channel that can re-open S and E. (G12, I5)
+## Premises (numbered; glossary-linked)
+**P1.** Responsibility attribution presupposes a distinction between instrumental outputs and owned commitments. (G7, G10, G18)  
+**P2.** Owned commitment requires a responsibility-bearing locus (First Cause) that can be identified and held answerable. (G6, G12, G13)  
+**P3.** In automated pipelines, default dynamics push toward automatic continuation and implicit adoption. (G17)  
+**P4.** Automatic continuation compresses or nullifies genuine suspension at the decision boundary. (G8, G3, G17)  
+**P5.** When suspension is compressed, outputs become commitments by default adoption (substitution). (G18, G10, G17)  
+**P6.** Therefore, preserving responsibility requires an explicit decision boundary and boundary legibility (what was decided, alternatives, constraints). (G3, G4)  
+**P7.** Boundary legibility is not merely descriptive; it is a control requirement that must be supported by interface constraints. (G4, G5)  
+**P8.** Evaluation under automation is prone to externalization: criteria are displaced into instruments and become non-contestable. (G9, G16)  
+**P9.** If operative criteria are not traceable, contestability collapses, and answerability becomes performative. (G15, G14, G12)  
+**P10.** Therefore, the apparatus must enforce criteria traceability at the level of minimum viable reasons. (G15)  
+**P11.** Preventing substitution requires an appropriation step: Proof of Signature (PoS) that ties boundary + reasons + answerability + revision channel. (G11, G3, G15, G12, G22)  
+**P12.** PoS does not require full model interpretability; it requires that the responsible locus can appropriate and defend/revise commitments under challenge. (G11, G12, G14, G22)  
+**P13.** In distributed systems, responsibility diffuses unless signature topology maps each boundary to an accountable signatory/committee. (G19, G6)  
+**P14.** A governance layer can support enforcement, but cannot replace PoS without simulating ownership. (G20, G11)  
+**P15.** Systems must include an answerability channel such that objections can re-open suspension/evaluation and force revision or explicit reaffirmation. (G12, G14, G22)  
+**P16.** Emergency contexts require bounded exceptions; if emergency mode is not explicit and audited, it becomes a substitution loophole. (G21, G18)
 
 ## Inference steps
-**S1.** From P1, P4: compressing S defeats strong agency.  
-**S2.** From P2, P5: simulating K by automation defeats responsibility attribution.  
-**S3.** From P6–P8: PoS + boundary legibility + criteria traceability + answerability channel are necessary conditions for responsible ownership.  
-**S4.** Therefore, an apparatus must enforce invariants I1–I6 to preserve strong agency under automation. (C)
+**S1.** From P1–P5: automation creates pressure toward substitution via default adoption. (G17, G18)  
+**S2.** From P6–P12: boundary legibility + PoS + traceability are necessary to preserve ownership. (G3, G4, G11, G15)  
+**S3.** From P13–P16: topology + answerability + bounded emergency modes prevent diffusion and loopholes. (G19, G12, G21)  
+**S4.** Therefore C, and the apparatus must enforce invariants I1–I6.
+
