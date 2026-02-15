@@ -1,39 +1,78 @@
-# GLOSSARY.en.md
+# cp-core-03 — Glossary (v0.3.0)
 
-# cp-core-03 — Glossary (v0.1.0)
+Use IDs (G1…G22) in `EN/ARGUMENT_MAP.en.md`, `EN/TESTS.en.md`, and other gate artifacts.
 
-## G1 — Suspension (S)
-Genuine withholding of commitment; not mere delay or friction. The capacity to stop automatic continuation.
+## G1 — Apparatus (method)
+A reusable set of constraints, interfaces, and records that preserves responsible ownership under automation.
 
-## G2 — Evaluation (E)
-Criterion-guided selection among reasons/grounds, including constraints, trade-offs, and uncertainty.
+**Boundary note:** not a policy manual; it is a structural control layer.
 
-## G3 — Commitment / Normative Signature (K)
+## G2 — Apparatus method
+A design discipline: enforce invariants that keep responsibility-bearing acts non-delegable while allowing instrumental assistance.
+
+## G3 — Decision boundary
+Explicit delineation of what is decided, alternatives, and constraints at the moment of commitment.
+
+## G4 — Boundary legibility
+The property that decision boundaries are identifiable, describable, and stable across stakeholders.
+
+## G5 — Interface constraint
+A requirement on how the system presents options, uncertainty, and refusal paths so that ownership remains possible.
+
+## G6 — First Cause (normative locus)
+A responsibility-bearing locus (person/role/committee) capable of owning commitments.
+
+## G7 — Second Cause (instrumental)
+A transmissive process generating outputs without ownership.
+
+## G8 — Suspension (S)
+Genuine withholding at the decision boundary.
+
+**Not:** friction, delay, or a mere feeling of hesitation.
+
+## G9 — Evaluation (E)
+Criterion-guided selection among reasons/grounds under constraints and uncertainty.
+
+## G10 — Commitment / Normative signature (K)
 An attributable stance that can be owned, challenged, revised, and sanctioned.
 
-## G4 — Answerability
-The condition under which a subject can be required to respond to objections and consequences.
+## G11 — Proof of Signature (PoS)
+Procedural appropriation step: boundary + minimum viable reasons + acceptance of answerability + revision channel.
 
-## G5 — Imputability
-Normative assignability of a decision/action to a subject under a responsibility regime.
+**Not:** full model interpretability.
 
-## G6 — First Cause
-A responsibility-bearing subject capable of S→E→K as a controlled normative act.
+## G12 — Answerability
+Standing to be required to respond to objections and consequences.
 
-## G7 — Second Cause
-An instrumental transmissive process producing outputs without responsibility appropriation.
+## G13 — Sanctionability
+Possibility of attaching consequences to a responsible locus for a commitment (legal/professional/social).
 
-## G8 — Automatic continuation
-A state where actions/decisions proceed by default, absent genuine suspension.
+## G14 — Contestability
+Capacity for structured objections that can re-open suspension/evaluation and force explicit reaffirmation or revision.
 
-## G9 — Externalization (delegation boundary)
-Delegation of evaluation/selection to instruments in a way that risks replacing First-Cause functions.
+## G15 — Criteria traceability (minimum viable reasons)
+Ability to retrieve the operative criteria/grounds used at commitment time at a level sufficient for challenge.
 
-## G10 — Proof of Signature (PoS)
-Procedural requirement that a commitment is owned: boundary + criteria + consequences + capacity for revision.
+## G16 — Externalization (delegation boundary)
+Delegation that risks replacing First-Cause functions with instrumental outputs.
 
-## G11 — Decision boundary
-The explicit delineation of what was decided, what alternatives existed, and what constraints applied.
+## G17 — Automatic continuation
+Default/inertial mode where the process proceeds such that commitment is implied without explicit ownership.
 
-## G12 — Challenge channel
-A defined mechanism to introduce objections that can re-open suspension/evaluation and force explicit reaffirmation or revision.
+## G18 — Second-Cause substitution
+Treating instrumental outputs as if they were owned commitments.
+
+## G19 — Signature topology
+Mapping from decision boundaries to accountable signatories (roles/committees), preventing diffusion.
+
+## G20 — Governance layer
+Institutional scaffolding (oversight, audits, procedures) supporting accountability.
+
+**Boundary note:** governance supports ownership but does not replace PoS.
+
+## G21 — Emergency delegation mode
+A bounded exception where speed forces partial delegation, compensated by explicit logging and post-hoc answerability.
+
+## G22 — Revision / retraction
+Controlled mechanism to change or withdraw commitments under defeat while preserving accountability.
+
