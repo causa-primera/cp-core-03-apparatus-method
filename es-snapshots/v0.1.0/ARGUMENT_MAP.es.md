@@ -1,5 +1,3 @@
-# es-snapshots/v0.1.0/ARGUMENT_MAP.es.md
-
 # cp-core-03 — Mapa Argumental (v0.1.0)
 
 ## Enlaces al glosario
@@ -23,3 +21,18 @@ Términos clave: [G1–G12] en `GLOSSARY.es.md`.
 **S2.** P2 + P5: simular K por automatización derrota imputabilidad.  
 **S3.** P6–P8: PoS + legibilidad + trazabilidad + canal de objeción son condiciones necesarias de apropiación.  
 **S4.** Luego, el aparato debe imponer I1–I6 para preservar agencia fuerte bajo automatización. (C)
+
+
+
+# cp-core-03 — Mapa argumental (snapshot ES v0.3.0)
+
+C: Un sistema preserva responsabilidad bajo automatización si implementa un aparato que fuerza: límites legibles, PoS, trazabilidad, contestabilidad y topología de firma, evitando adopción por defecto y sustitución.
+
+P1 Salidas ≠ compromisos asumidos.  
+P2 Automatización empuja continuidad automática.  
+P3 Continuidad comprime suspensión.  
+P4 Sin límites legibles y PoS, hay sustitución.  
+P5 Trazabilidad y contestabilidad son necesarias para respondibilidad.  
+P6 Topología de firma evita difusión.  
+P7 Modos de emergencia deben ser acotados y auditables.
+
