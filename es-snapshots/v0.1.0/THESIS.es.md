@@ -1,4 +1,3 @@
-# es-snapshots/v0.1.0/THESIS.es.md
 
 # cp-core-03 — Método de Aparato (v0.1.0)
 
@@ -32,3 +31,13 @@ PoS no es “explicabilidad del modelo”; es **apropiación por un sujeto respo
 
 ## 5. Alcance v0.1.0
 Definición de invariantes y mapa argumental mínimo. Implementaciones por dominio quedan fuera por ahora.
+
+
+# cp-core-03 — Método de Aparato (snapshot ES v0.3.0)
+
+## Tesis
+El “aparato” es una capa de restricciones, interfaces y registros que impide la sustitución de salidas instrumentales por compromisos asumidos. Su función es preservar invariantes de responsabilidad bajo automatización (no delegabilidad, suspensión genuina, límites decisionales legibles, trazabilidad, contestabilidad y topología de firma).
+
+## Núcleo
+Sin PoS, sin límites legibles y sin canales de impugnación, la automatización induce continuidad automática y adopción por defecto, produciendo sustitución.
+
