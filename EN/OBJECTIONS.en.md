@@ -1,35 +1,34 @@
-[Inference]
+# cp-core-03 — Steelman Objections (v0.3.0)
 
-# cp-core-01 — Steelman Objections (v0.3.0)
+These objections target the Apparatus Method itself (not Core-01’s freedom thesis).
 
-These objections target Core-01’s claims about transcendental freedom as a condition for normative responsibility under automation.
+## O1 — Bureaucratization objection
+The apparatus risks becoming a bureaucracy that substitutes paperwork for responsibility, producing formal compliance without genuine ownership.
 
-## O1 — Proceduralization: normativity is smuggled in
-Defining freedom as Suspension→Evaluation→Commitment (S→E→K) risks merely redescribing procedures while the actual source of normativity remains external (law, institutions, social practices). If so, “transcendental freedom” does not ground responsibility; it only packages it.
+## O2 — PoS gaming objection
+Proof of Signature can be gamed: signatories may rubber-stamp, template reasons, or use boilerplate to simulate contestability.
 
-## O2 — Epiphenomenal suspension
-Suspension may be psychologically salient yet normatively inert: decisions may still be determined by defaults, priors, environment, or pipeline inertia. If suspension cannot alter the decision boundary in a principled manner, it cannot underwrite responsibility.
+## O3 — Boundary legibility impossibility objection
+In real pipelines, decision boundaries are multi-layered and fluid. “What was decided” may be inherently ambiguous, making legibility requirements unrealistic.
 
-## O3 — Collective agency: no single First Cause
-Many decisions are structurally distributed across teams and infrastructures. If responsibility is inherently collective, insisting on a singular “First Cause” distorts the phenomenon and forces an individualistic signature onto organizational agency.
+## O4 — Traceability vs privacy/PII objection
+Criteria traceability and logging may require recording sensitive information. The apparatus may conflict with privacy constraints or increase exposure risk.
 
-## O4 — Functional equivalence: anti-essentialism about agency
-If two systems are functionally and behaviorally equivalent in all normatively relevant respects (including revision under challenge), denying agency to one looks like stipulation. Why isn’t “being a responsible subject” just a functional profile plus governance?
+## O5 — Contestability as attack surface objection
+Challenge channels can become vectors for harassment, adversarial manipulation, or strategic obstruction, undermining operational stability.
 
-## O5 — Regress of endorsement
-If commitment requires endorsement, what authorizes endorsement itself? Either there is an infinite regress (endorsement of endorsement…) or a brute stop (“the subject just owns it”), which risks becoming dogmatic.
+## O6 — Signature topology diffusion objection
+Even with topology mapping, organizations can diffuse responsibility by creating committees or rotating signatories, making accountability nominal.
 
-## O6 — Criteria underdetermination: evaluation cannot be owned
-Real-world criteria are often vague, conflicting, or post-hoc rationalized. If evaluation criteria cannot be specified ex ante, “owned evaluation” collapses into narrative reconstruction; responsibility becomes an after-the-fact story rather than a real normative act.
+## O7 — Emergency mode abuse objection
+Emergency delegation modes can become the default operational mode, creating a permanent loophole that bypasses PoS.
 
-## O7 — Over-demandingness: the theory excludes ordinary agents
-If responsible agency requires articulate criteria, structured suspension, and explicit commitment, then many ordinary actions (and many ordinary people under stress, low literacy, disability, or time pressure) fail the test. That yields an implausibly elitist account of responsibility.
+## O8 — Governance displacement objection
+The apparatus may merely shift responsibility into “governance compliance,” making responsibility a property of process owners rather than decision owners.
 
-## O8 — Normative pluralism: which norms does freedom commit to?
-In plural societies, agents face incompatible normative regimes. If transcendental freedom is a condition of responsibility, how does it select which normativity binds? Without a selection principle, the framework may be indeterminate or politically biased.
+## O9 — Cross-domain mismatch objection
+A single apparatus may not fit heterogeneous domains (law, medicine, finance). Domain-specific constraints may force incompatible apparatus variants.
 
-## O9 — Reliability trade-off: responsibility constraints reduce welfare
-In high-stakes settings, automated systems may outperform humans. Requiring strong suspension/PoS might slow action and increase errors. If the apparatus reduces welfare, why treat it as a universal constraint rather than a context-dependent luxury?
+## O10 — Instrumental superiority objection
+Where instruments reliably outperform humans, insisting on PoS and suspension may increase harm by slowing action or increasing error rates.
 
-## O10 — Power and structural injustice: signatures can launder domination
-If norms are shaped by power, then “signature” and “appropriation” may legitimate unjust structures (“you signed, so you own it”) while hiding coercion, dependency, or lack of alternatives. The framework risks moralizing compliance.
