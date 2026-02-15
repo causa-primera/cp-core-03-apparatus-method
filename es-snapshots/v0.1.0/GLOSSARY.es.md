@@ -1,5 +1,3 @@
-# es-snapshots/v0.1.0/GLOSSARY.es.md
-
 # cp-core-03 — Glosario (v0.1.0)
 
 ## G1 — Suspensión (S)
@@ -37,3 +35,18 @@ Delimitación explícita de qué se decidió, alternativas, y restricciones apli
 
 ## G12 — Canal de objeción
 Mecanismo definido para introducir objeciones que reabran suspensión/evaluación y fuerce reafirmación o revisión explícita.
+
+
+# cp-core-03 — Glosario (snapshot ES v0.3.0)
+
+1) Aparato: restricciones/interfaz/registros que preservan apropiación.  
+2) Límite decisional: qué se decide, alternativas, restricciones.  
+3) Legibilidad del límite: identificable y estable.  
+4) PoS: límite + razones mínimas + respondibilidad + revisión.  
+5) Sustitución: tratar salidas como compromisos.  
+6) Topología de firma: mapa límites→signatarios.  
+7) Trazabilidad: razones mínimas recuperables.  
+8) Contestabilidad: objeciones reabren revisión.  
+9) Continuidad automática: adopción por defecto.  
+10) Externalización: delegación que desplaza funciones de agencia fuerte.
+
